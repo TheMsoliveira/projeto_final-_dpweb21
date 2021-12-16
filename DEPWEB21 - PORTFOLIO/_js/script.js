@@ -33,7 +33,7 @@ function validar(){
         // faz a validação novamente
         if (!this.validity.valid) {
             // se estiver inválido, coloca a mensagem
-            this.setCustomValidity("Por favor verifique se todos os campos digitados");
+            this.setCustomValidity("Verifique se todos os campos foram digitados corretamente");
          }  
      };
 
